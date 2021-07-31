@@ -2830,7 +2830,7 @@ unicode = 00EC;
 },
 {
 glyphname = j;
-lastChange = "2018-04-18 06:41:15 +0000";
+lastChange = "2021-07-31 23:44:30 +0000";
 layers = (
 {
 background = {
@@ -2879,15 +2879,6 @@ nodes = (
 }
 );
 };
-components = (
-{
-name = jdotless;
-},
-{
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 135, 0}";
-}
-);
 guideLines = (
 {
 angle = 90;
