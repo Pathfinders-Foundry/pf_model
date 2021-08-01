@@ -33,7 +33,7 @@ test: venv build.stamp
 	. venv/bin/activate; fontbakery check-googlefonts -l WARN --succinct --badges badges --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
 
 proof: venv build.stamp
-	. venv/bin/activate; gftools gen-html proof $(shell find fonts/ttf *.ttf) -o proof
+	. venv/bin/activate; gftools gen-html proof fonts/ttf/*.ttf -o out
 #	. venv/bin/activate; gftools gen-html proof $(shell find fonts/ttf -type f) -o proof
 
 images: venv build.stamp $(DRAWBOT_OUTPUT)
